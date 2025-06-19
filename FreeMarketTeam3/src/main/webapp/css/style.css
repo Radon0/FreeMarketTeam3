@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.message {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.messageBox {
+	height: 500px;
+	border: 1px solid black;
+	background-color: darkgray;
+}
+
+ul,
+li,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.me,.you{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.text{
+	max-width: 70%;
+	border-radius: 20px;
+	padding: 0.5em;
+	color: black;
+}
+
+.status{
+	color:white;
+	font-size: 11px;
+	align-self: flex-end;
+	margin: 0 5px;
+	text-align: right;
+}
+
+.me{
+	flex-direction: row-reverse;
+}
+
+.me .text{
+	background: lawngreen;
+}
+.you .text{
+	background: white;
+}
